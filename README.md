@@ -16,9 +16,7 @@ This project should look like a real backend engineering assignment submission.
 
 ---
 
-# Final Features
 
-## Required Features
 
 ### Authentication
 
@@ -45,11 +43,10 @@ This project should look like a real backend engineering assignment submission.
 
 ---
 
-# Professional Extra Feature (IMPORTANT)
+
 
 # Note Version History + Restore
 
-## Why This Feature?
 
 Real user problem:
 Users accidentally overwrite important notes.
@@ -68,7 +65,6 @@ This demonstrates:
 * Audit/history systems
 * Non-trivial implementation
 
-This is MUCH stronger than adding colors/tags.
 
 ---
 
@@ -216,7 +212,7 @@ created_at TIMESTAMP
 
 ---
 
-# note_versions Table (Professional Feature)
+# note_versions Table 
 
 ```sql
 id UUID PRIMARY KEY
@@ -349,7 +345,6 @@ Before updating:
 
 * save previous version into note_versions
 
-This is your professional feature.
 
 ---
 
@@ -413,8 +408,6 @@ Flow:
 
 ---
 
-# Why HR/Reviewer Will Like This
-
 Because this demonstrates:
 
 * Audit systems
@@ -423,7 +416,6 @@ Because this demonstrates:
 * Historical data handling
 * Product thinking
 
-This looks much more professional than basic CRUD.
 
 ---
 
@@ -557,96 +549,3 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 10000
 ```
 
----
-
-# Step 16 — README.md
-
-Your README should contain:
-
-* Project overview
-* Tech stack
-* Setup instructions
-* Environment variables
-* API endpoints
-* Deployment URL
-* Feature explanation
-
-Professional README increases evaluation score.
-
----
-
-# Suggested Development Order
-
-# Day 1
-
-* Setup project
-* Database setup
-* Models
-* Register/Login
-* JWT auth
-
-# Day 2
-
-* Notes CRUD
-* Share notes
-* Authorization checks
-
-# Day 3
-
-* Version history feature
-* Docker
-* Deployment
-* README
-* Testing
-
----
-
-# Final Submission Checklist
-
-## Required
-
-* Working APIs
-* Hosted URL
-* GitHub repository
-* OpenAPI docs
-* Authentication
-* Notes CRUD
-* Share feature
-* Extra feature
-
----
-
-# Final Recommended Stack
-
-```txt
-FastAPI
-PostgreSQL
-SQLAlchemy
-JWT
-Alembic
-Docker
-Render
-```
-
----
-
-# Why This Submission Will Look Strong
-
-This architecture looks:
-
-* scalable
-* professional
-* production-oriented
-* secure
-* well-structured
-
-It demonstrates:
-
-* backend engineering fundamentals
-* authentication knowledge
-* database modeling
-* API design
-* deployment skills
-* product thinking
-
-Exactly what evaluators want in backend assignments.
