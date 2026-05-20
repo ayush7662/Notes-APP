@@ -2,6 +2,9 @@ from fastapi import FastAPI
 
 from app.database import Base, engine
 
+# ✅ ADD THIS LINE (VERY IMPORTANT)
+import app.models
+
 from routers.auth_router import router as auth_router
 from routers.notes_router import router as notes_router
 from routers.about_router import router as about_router
@@ -17,6 +20,6 @@ app.include_router(about_router)
 
 @app.get("/")
 def home():
-    return{
+    return {
         "message": "Notes Backend API Running"
     }
